@@ -1,0 +1,145 @@
+h2.greatting_msg{
+  text-align: center;
+  font-weight:bold;
+}
+
+  /* navbar styles */
+
+  .navbar_styles{
+    width: 100%;
+  }
+  .navbar_list{
+    padding-inline-start: 250px;
+    background-color: #cfde94;
+    }
+  nav  ul  li :hover{
+    color:white;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px !important;
+    overflow: hidden;
+    background-color: #cfde94;
+  }
+  
+  nav li {
+    list-style-type: none;
+    float: left;
+  }
+  
+  nav li a {
+  
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #b0c364;
+  }
+  
+  /* navbar styles END */
+  
+  /* drop down list position */
+
+  .dropdown {
+    position: absolute ;
+    right: 90px ;
+    top: 115px ;
+  }
+
+    
+  .item_hover:hover{
+    background-color:#b0c364;
+  }
+
+  a, a:hover, a:focus {
+    transition-duration: 500ms;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  /* drop down list position END */
+
+  /* /////////////////////////////////////////////////////////////// */
+
+
+/* admin profile styles */
+
+body{
+    margin-top: 20px;
+    background-color:  white;
+  }
+
+.profile_card_body{
+    margin-top: 30px;
+    background-color: #f0f3ea;
+  }
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .content{
+    background-color: whitesmoke;
+  }
+  .card_header{
+    background-color: #d2deb5;
+  }
+  .profile_img{
+    padding-top:20px;
+  }
+
+  /* admin profile styles END */
+
+  /* /////////////////////////////////////////////////////////////// */
+/* dashboard styles */
+
+  .cards_radius{
+    border-radius: 10px !important;
+    border-color: #b0c364;
+  }
+  
+  .bg-cards:hover{
+    color:white ;
+    background-color:#d0d8af;
+  }
+
+  /* .cards_group{
+    margin-left: 320px;
+  } */
+.cards_head_radius {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+/* success / fail insert */
+
+.sql_operation{
+    border: solid;
+    border-width: 1px;
+    border-color: red;
+    background-color: #cfde94;
+    width: 8rem;
+    padding: 0.3rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.errors{
+    display: block;
+    color: red;
+}
+.aImage{
+    border: solid;
+    border-radius: 20px;
+    margin: 0.5rem;
+    width: 4rem;
+
+}

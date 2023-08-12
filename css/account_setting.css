@@ -1,0 +1,22 @@
+body{
+    background-color:  white;
+  }
+
+.profile_card_body{
+    margin-top: 30px;
+    background-color: #f0f3ea;
+  }
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .content{
+    background-color: whitesmoke;
+  }
+  .card_header{
+    background-color: #d2deb5;
+  }
+  .profile_img{
+    padding-top:20px;
+  }
